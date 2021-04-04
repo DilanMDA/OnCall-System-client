@@ -8,13 +8,14 @@ import AboutUs from './modules/AboutUs/AboutUs';
 import HomeLayout from './layouts/HomeLayout';
 import ContactUs from './modules/ContactUs/ContactUs';
 import SignUp from './modules/SignUp/SignUp';
+import SignInForm from './modules/SignIn/SignInForm';
 
 function App() {
   return (
     <Router>
       <Switch>
         <Route path='/' component={HomeLayout(Home)} exact />
-        <Route path='/signin' component={SigninPage} exact />
+        <Route path='/signin' component={DefaultLayout(SignInForm)} exact />
         <Route path='/user' component={DefaultLayout(UserPage)} exact />
         <Route path='/contact-us' component={DefaultLayout(ContactUs)} exact />
         <Route path='/sign-up' component={DefaultLayout(SignUp)} exact />
