@@ -82,20 +82,6 @@ export const NavExternalLinks = styled(LinkR)`
   }
 `;
 
-export const NavInternalLinks = styled(LinkS)`
-  font-color: #fff !import;
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-  padding: 0 1rem;
-  height: 100%;
-  cursor: pointer;
-
-  &.active {
-    border-bottom: 3px solid #01bf71;
-  }
-`;
-
 export const NavBtn = styled.nav`
   display: flex;
   align-items: center;
@@ -121,5 +107,19 @@ export const NavBtnLink = styled(LinkR)`
     transition: all 0.2s ease-in-out;
     background: #fff;
     color: #010606;
+  }
+`;
+
+export const NavInternalLinks = styled( LinkS )`
+  color: #fff;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0 1rem;
+  height: 100%;
+  cursor: pointer;
+
+  &.active {
+    border-bottom: 3px solid #01bf71;
   }
 `;

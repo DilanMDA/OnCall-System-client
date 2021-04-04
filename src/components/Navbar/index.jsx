@@ -55,6 +55,7 @@ const Navbar = ({ toggle, isBlack }) => {
                   exact="true"
                   offset={-80}
                 >
+                  <i className="fas fa-home"></i>
                   Home
                 </NavExternalLinks>
               </NavItem>
@@ -67,7 +68,7 @@ const Navbar = ({ toggle, isBlack }) => {
                   exact="true"
                   offset={-80}
                 >
-                  Services
+                  <i className="fal fa-user-hard-hat"></i>   Services
                 </NavInternalLinks>
               </NavItem>
               <NavItem>
@@ -79,7 +80,7 @@ const Navbar = ({ toggle, isBlack }) => {
                   exact="true"
                   offset={-80}
                 >
-                  User
+                  <i className="fas fa-users"></i>  Users
                 </NavExternalLinks>
               </NavItem>
               <NavItem>
@@ -91,7 +92,7 @@ const Navbar = ({ toggle, isBlack }) => {
                   exact="true"
                   offset={-80}
                 >
-                  About
+                  <i className="fad fa-info-circle"></i> About
                 </NavExternalLinks>
               </NavItem>
               <NavItem>
@@ -103,7 +104,7 @@ const Navbar = ({ toggle, isBlack }) => {
                   exact="true"
                   offset={-80}
                 >
-                  Contact us
+                  <i className="fas fa-id-card"></i> Contact us
                 </NavExternalLinks>
               </NavItem>
               <NavItem>
@@ -115,12 +116,13 @@ const Navbar = ({ toggle, isBlack }) => {
                   exact="true"
                   offset={-80}
                 >
-                  Sign Up
+                  <i className="fas fa-user"></i>
+                   Sign Up
                 </NavExternalLinks>
               </NavItem>
             </NavMenu>
             <NavBtn>
-              <NavBtnLink to="/signin">Sign In</NavBtnLink>
+              <NavBtnLink to="/signin"><i className="fal fa-sign-in"></i>Sign In</NavBtnLink>
             </NavBtn>
           </NavbarContainer>
         </Nav>

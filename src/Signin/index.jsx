@@ -28,18 +28,9 @@ const SignIn = () => {
               alt="Person"
               className="card__image d-flex justify-content-center"
             />
-            <FormLabel htmlFor="for">First Name</FormLabel>
-            <FormInput htmlFor="firstName" required />
-
-            <FormLabel htmlFor="for">Last Name</FormLabel>
-            <FormInput htmlFor="lastName" required />
-
+           
             <FormLabel htmlFor="for">User Name</FormLabel>
             <FormInput htmlFor="userName" required />
-
-            <FormLabel htmlFor="for">Contact Number</FormLabel>
-            <FormInput htmlFor="contactNumber" required />
-
             <FormLabel htmlFor="for">Email</FormLabel>
             <FormInput htmlFor="email" required />
 
