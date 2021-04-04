@@ -20,10 +20,10 @@ const DefaultLayout = (ViewComponent) => {
       return (
         <>
           <Sidebar isOpen={isOpen} toggle={() => this.toggleHandler()} />
-          <Navbar toggle={() => this.toggleHandler()} isBlack={true} />
-          <div className="container">
+          <Navbar toggle={() => this.toggleHandler()} />
+          <>
             <ViewComponent />
-          </div>
+          </>
           <Footer />
         </>
       );

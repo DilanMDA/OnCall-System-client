@@ -15,7 +15,8 @@ import {
 } from "./NavbarElements";
 import { animateScroll as scroll } from "react-scroll";
 
-const Navbar = ({ toggle }) => {
+const Navbar = ({ toggle, isBlack }) => {
+  console.log("🚀 ~ file: index.jsx ~ line 19 ~ Navbar ~ isBlack", isBlack);
   const [scrollNav, setScrollNav] = useState(false);
   const changeNav = () => {
     if (window.scrollY >= 80) {
@@ -36,7 +37,7 @@ const Navbar = ({ toggle }) => {
   return (
     <>
       <IconContext.Provider value={{ color: "#fff" }}>
-        <Nav scrollNav={scrollNav}>
+        <Nav scrollNav={scrollNav} isBlack={isBlack}>
           <NavbarContainer>
             <NavLogo to="/" onClick={toggleHome}>
               OnCall System
