@@ -5,12 +5,13 @@ import SigninPage from './pages/signin';
 import DefaultLayout from './layouts/DefaultLayout';
 import UserPage from './modules/User/User';
 import AboutUs from './modules/AboutUs/AboutUs';
+import HomeLayout from './layouts/HomeLayout';
 
 function App() {
   return (
     <Router>
       <Switch>
-        <Route path='/' component={DefaultLayout(Home)} exact />
+        <Route path='/' component={HomeLayout(Home)} exact />
         <Route path='/signin' component={SigninPage} exact />
         <Route path='/user' component={DefaultLayout(UserPage)} exact />
         {/* <Route path='/user' component={(UserPage)} exact /> */}

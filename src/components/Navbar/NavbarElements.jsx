@@ -83,7 +83,7 @@ export const NavExternalLinks = styled(LinkR)`
 `;
 
 export const NavInternalLinks = styled(LinkS)`
-  color: #fff;
+  font-color: #fff !import;
   display: flex;
   align-items: center;
   text-decoration: none;

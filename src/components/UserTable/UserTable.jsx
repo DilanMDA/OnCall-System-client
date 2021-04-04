@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Trash, PenFill } from "react-bootstrap-icons";
 import userData from "../../DummyData/userData.json";
 
 export class UserTable extends Component {
@@ -14,6 +15,7 @@ export class UserTable extends Component {
               <th scope="col">User Name</th>
               <th scope="col">Contact Number</th>
               <th scope="col">Email</th>
+              <th scope="col">Actions</th>
             </tr>
           </thead>
           <tbody>
@@ -26,6 +28,19 @@ export class UserTable extends Component {
                   <td>{user.userName}</td>
                   <td>{user.contactNumber}</td>
                   <td>{user.email}</td>
+                  <td>
+                    <button
+                      type="button"
+                      className="btn btn-primary btn-sm"
+                      style={{ marginRight: 5 }}
+                    >
+                      <PenFill />
+                    </button>
+
+                    <button type="button" className="btn btn-danger btn-sm">
+                      <Trash />
+                    </button>
+                  </td>
                 </tr>
               );
             })}

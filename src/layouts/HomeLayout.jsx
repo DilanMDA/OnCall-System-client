@@ -3,7 +3,7 @@ import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import Sidebar from "../components/SideBar";
 
-const DefaultLayout = (ViewComponent) => {
+const HomeLayout = (ViewComponent) => {
   return class extends React.Component {
     constructor(props) {
       super(props);
@@ -31,4 +31,4 @@ const DefaultLayout = (ViewComponent) => {
   };
 };
 
-export default DefaultLayout;
+export default HomeLayout;
