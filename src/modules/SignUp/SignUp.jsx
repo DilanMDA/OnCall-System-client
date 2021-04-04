@@ -1,8 +1,13 @@
 import React, { Component } from "react";
+import SignIn from "../../Signin";
 
 export class SignUp extends Component {
   render() {
-    return <div style={{ minHeight: 500, marginTop: 100 }}>Sign up</div>;
+    return (
+      <div style={{ marginTop: 100, marginBottom: 100 }}>
+        <SignIn />
+      </div>
+    );
   }
 }
 
