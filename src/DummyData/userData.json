@@ -1,0 +1,56 @@
+{
+    "userData": {
+      "data": [
+        {
+          "firstName": "Mark",
+          "lastName": "Otto",
+          "userName":"mark",
+          "contactNumber":"071123456789",
+          "email":"abc@gmail.com",
+          "password":"abc123",
+          "ConfirmPassword":"abc123"
+        },
+        {
+            "firstName": "Jacon",
+            "lastName": "Thornton",
+            "userName":"jacon",
+            "contactNumber":"071123456789",
+            "email":"abc@gmail.com",
+            "password":"abc123",
+            "ConfirmPassword":"abc123"
+  
+          },
+          {
+            "firstName": "Larry",
+            "lastName": "the birsd",
+            "userName":"larry",
+            "contactNumber":"071123456789",
+            "email":"abc@gmail.com",
+            "password":"abc123",
+            "ConfirmPassword":"abc123"
+  
+          },
+          {
+            "firstName": "John",
+            "lastName": "kenral",
+            "userName":"john",
+            "contactNumber":"071123456789",
+            "email":"abc@gmail.com",
+            "password":"abc123",
+            "ConfirmPassword":"abc123"
+  
+          },
+          {
+            "firstName": "Stephanie",
+            "lastName": "kespera",
+            "userName":"stephanie",
+            "contactNumber":"071123456789",
+            "email":"abc@gmail.com",
+            "password":"abc123",
+            "ConfirmPassword":"abc123"
+  
+          }
+      ]
+    }
+  }
+  
