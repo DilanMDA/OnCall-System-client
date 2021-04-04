@@ -11,10 +11,12 @@ const User = () => {
   };
 
   return (
-    <>
-      <SignIn />
-      User...
-    </>
+    <div className="row">
+      <div className="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+        <SignIn />
+      </div>
+      <div className="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">Hello</div>
+    </div>
   );
 };
 
