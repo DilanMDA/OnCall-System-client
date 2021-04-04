@@ -12,8 +12,8 @@ function App() {
       <Switch>
         <Route path='/' component={DefaultLayout(Home)} exact />
         <Route path='/signin' component={SigninPage} exact />
-        {/* <Route path='/user' component={DefaultLayout(UserPage)} exact /> */}
-        <Route path='/user' component={(UserPage)} exact />
+        <Route path='/user' component={DefaultLayout(UserPage)} exact />
+        {/* <Route path='/user' component={(UserPage)} exact /> */}
 
         <Route path='/about' component={DefaultLayout(AboutUs)} exact />
       </Switch>
