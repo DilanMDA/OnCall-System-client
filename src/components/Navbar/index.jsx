@@ -96,7 +96,7 @@ const Navbar = ({ toggle, isBlack }) => {
               </NavItem>
               <NavItem>
                 <NavExternalLinks
-                  to="contactUs"
+                  to="contact-us"
                   smooth={true}
                   duration={500}
                   spy={true}
@@ -108,7 +108,7 @@ const Navbar = ({ toggle, isBlack }) => {
               </NavItem>
               <NavItem>
                 <NavExternalLinks
-                  to="signup"
+                  to="sign-up"
                   smooth={true}
                   duration={500}
                   spy={true}
