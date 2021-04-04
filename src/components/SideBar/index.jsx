@@ -30,10 +30,10 @@ const Sidebar = ({ isOpen, toggle }) => {
           <SidebarLink to="about" onClick={toggle}>
             About
           </SidebarLink>
-          <SidebarLink to="contactUs" onClick={toggle}>
+          <SidebarLink to="contact-us" onClick={toggle}>
             Contact Us
           </SidebarLink>
-          <SidebarLink to="signup" onClick={toggle}>
+          <SidebarLink to="sign-up" onClick={toggle}>
             Sign up
           </SidebarLink>
         </SidebarMenu>

@@ -6,6 +6,8 @@ import DefaultLayout from './layouts/DefaultLayout';
 import UserPage from './modules/User/User';
 import AboutUs from './modules/AboutUs/AboutUs';
 import HomeLayout from './layouts/HomeLayout';
+import ContactUs from './modules/ContactUs/ContactUs';
+import SignUp from './modules/SignUp/SignUp';
 
 function App() {
   return (
@@ -14,6 +16,10 @@ function App() {
         <Route path='/' component={HomeLayout(Home)} exact />
         <Route path='/signin' component={SigninPage} exact />
         <Route path='/user' component={DefaultLayout(UserPage)} exact />
+        <Route path='/contact-us' component={DefaultLayout(ContactUs)} exact />
+        <Route path='/sign-up' component={DefaultLayout(SignUp)} exact />
+
+
         {/* <Route path='/user' component={(UserPage)} exact /> */}
 
         <Route path='/about' component={DefaultLayout(AboutUs)} exact />

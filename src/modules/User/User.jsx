@@ -1,6 +1,7 @@
 // Home page
 
 import React, { useState } from "react";
+import ScrollToTop from "../../components/ScrollToTop";
 import UserTable from "../../components/UserTable/UserTable";
 import SignIn from "../../Signin";
 
@@ -13,6 +14,7 @@ const User = () => {
 
   return (
     <div className="container">
+      <ScrollToTop />
       <div className="row" style={{ paddingTop: 100, paddingBottom: 60 }}>
         <div className="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
           <SignIn />
