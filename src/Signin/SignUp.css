@@ -1,0 +1,14 @@
+.card__image {
+  height: 160px;
+  width: 160px;
+  border-radius: 50%;
+  border: 5px solid #272133;
+  margin-top: 20px;
+  box-shadow: 0 10px 50px rgba(235, 25, 110, 1);
+  margin-left: 25%;
+  margin-top: 25%;
+
+  /* position: absolute; */
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
